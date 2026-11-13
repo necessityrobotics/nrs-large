@@ -1,0 +1,7 @@
+# Install PyTorch first, from https://pytorch.org (CUDA or CPU build). Tested with torch 2.9.1 (CUDA 13.0).
+numpy>=1.24
+opencv-python>=4.8
+safetensors>=0.4
+scipy>=1.10
+einops>=0.6
+opt_einsum>=3.3

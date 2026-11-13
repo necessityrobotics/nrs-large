@@ -1,0 +1,21 @@
+Necessity Robotics stereo depth model: nrs-large
+Copyright 2026 Necessity Robotics
+
+Model weights and the scripts of this release: Apache License, Version 2.0 (see LICENSE).
+
+The weights were trained by Necessity Robotics from random initialisation. No other group's model weights were used for training.
+
+This release contains or is derived from the following third-party works. Their licence texts are in LICENSES/ (sha256 of each copied text in brackets):
+
+* DLNR / High-frequency-Stereo-Matching-Network (github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network, commit c10475f; its licence is RAFT-Stereo's): the nrs-large network design and code
+  LICENSES/DLNR_MIT.txt  [f134ad9e8937e5b9571867acea371a53d1f3d4ff6babdbcddd8f6e554ad467aa]
+* WMGStereo-150k: the generator repository's BSD-3-Clause text (the dataset itself carries a bsd-3-clause tag)
+  LICENSES/WMGStereo_generator_BSD-3-Clause.txt  [c82283cd681fa8be1f9f696dac55745bb743be26563e3a6a4fda900c9f5a6a78]
+
+Copyright line of the code licence:
+  DLNR_MIT.txt: Copyright (c) 2021 Princeton Vision & Learning Lab
+
+Training data attribution (nrs-large was trained only on WMGStereo-150k; ATTRIBUTION.md has the citation):
+  WMGStereo-150k (Yan, Raistrick, Deng, CVPR 2026), revision 5ecc0dcd, BSD-3-Clause tag; generator: Copyright (c) 2025,
+    Princeton Vision & Learning Lab, with the three BSD-3 conditions and disclaimer in
+    LICENSES/WMGStereo_generator_BSD-3-Clause.txt
